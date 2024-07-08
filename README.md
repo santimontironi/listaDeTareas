@@ -1,2 +1,11 @@
-# listaDeTareas
-Lista de tareas con HTML,CSS y Js (vanilla). En ella, se podrá agregar tareas las cuales se ponen como pendientes y también se pueden actualizar como tarea realizada.
+#Lista de tareas.
+##Este proyecto es una aplicación de lista de tareas creada con HTML, CSS y JavaScript. La aplicación permite a los usuarios agregar tareas, marcarlas como completadas y eliminarlas.
+##Características.
+Visualización de la fecha actual.
+Agregar tareas pendientes.
+Marcar tareas como completadas.
+Eliminar tareas.
+##Uso
+Agregar una tarea: Escribe la tarea en el campo de texto y haz clic en el icono de agregar tarea (📋).
+Marcar una tarea como completada: Haz clic en el icono de check (✔️) junto a la tarea.
+Eliminar una tarea: Haz clic en el icono de la papelera (🗑️) junto a la tarea.

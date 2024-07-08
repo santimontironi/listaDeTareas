@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tareas</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://api.fontshare.com/v2/css?f[]=gambetta@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contenedor">
+        <section class="contenedorTareasPendientes">
+            <div class="fecha">
+                <p class="txtFecha"></p>
+            </div>
+    
+            <div class="bienvenida">
+                <h1>Hola, bienvenido.</h1>
+                <span>Vamos a cumplir tus tareas</span>
+            </div>
+    
+            <div class="ingresoTarea">
+                <input type="text" placeholder="Ingrese la tarea">
+                <i class='bx bxs-message-alt-add agregarTarea'></i>
+            </div>
+    
+            <section class="tareasPendientes">
+                <h1>Estas son tus tareas pendientes</h1>
+                <ul class="pendientes" id="ulPendientes">
+                    
+                </ul>
+            </section>
+        </section>
+        
+        <section class="contenedorTareasCumplidas">
+            <section class="tareasCumplidas">
+                <h1>Estas son tus tareas cumplidas</h1>
+                <ul class="cumplidas" id="ulCumplidas">
+                    
+                </ul>
+            </section>
+        </section>
+    </div>
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>

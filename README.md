@@ -1,6 +1,6 @@
 # Lista de Tareas
 
-Este proyecto es una aplicación de lista de tareas sencilla creada con HTML, CSS y JavaScript. La aplicación permite a los usuarios agregar tareas, marcarlas como completadas y eliminarlas.
+Este proyecto es una aplicación de lista de tareas creada con HTML, CSS y JavaScript. La aplicación permite a los usuarios agregar tareas, marcarlas como completadas y eliminarlas.
 
 ## Características
 

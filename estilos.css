@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gambetta', serif;
+    user-select: none;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom,#9a67ea,#2a73c2);
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor{
+    margin-top: 30px;
+    display: flex;
+    gap: 120px;
+}
+
+.fecha p{
+    color: white;
+}
+
+.bienvenida h1{
+    color: white;
+    font-weight: 900;
+}
+
+.bienvenida span{
+    color: white;
+    font-weight: 100;
+}
+
+.ingresoTarea{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 12px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.ingresoTarea input{
+    padding: 8px;
+    width: 240px;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.ingresoTarea i{
+    color: #9a67ea;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.pendientes{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+    display: none;
+}
+
+.pendientes li{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 40px;
+    width: 280px;
+    background-color: #082e56;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.pendientes li .btnBorrar{
+    color: red;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.pendientes li .btnHecha{
+    color: green;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.cumplidas{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+    display: none;
+}
+
+.cumplidas li{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 30px;
+    width: 220px;
+    background-color: #082e56;
+    color: white;
+    border-radius: 20px;
+}
+
+.cumplidas li .btnBorrar{
+    color: red;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.cumplidas li .btnHecha{
+    display: none;
+}
+
+@media (max-width:700px){
+    .contenedor{
+        flex-direction: column;
+    }
+}
